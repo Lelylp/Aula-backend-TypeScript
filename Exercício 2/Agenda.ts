@@ -15,7 +15,7 @@ export class Agenda{
 
     remover(nome:string, numero:string){
         for (const i in this.contatos) {
-            if (i[nome]==nome && i[numero] == numero) {
+            if (i[0]==nome && i[1] == numero) {
                 let num:number = this.contatos.indexOf(i)
                 this.contatos.splice(num,1);
             }
