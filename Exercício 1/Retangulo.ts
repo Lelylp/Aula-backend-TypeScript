@@ -1,6 +1,6 @@
 export class Retangulo{
-    largura:number;
-    altura:number;
+    private largura:number;
+    private altura:number;
 
     constructor(largura:number, altura:number){
         this.largura = largura;

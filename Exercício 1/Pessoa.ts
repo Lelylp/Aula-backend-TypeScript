@@ -1,7 +1,7 @@
 export class Pessoa {
-    nome:string;
-    idade:number;
-    email:string;
+    private nome:string;
+    private idade:number;
+    private email:string;
 
     constructor(nome:string, idade:number, email:string){
         this.nome = nome

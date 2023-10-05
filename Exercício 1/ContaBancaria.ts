@@ -1,6 +1,6 @@
 export class ContaBancaria{
-    saldo:number;
-    numeroConta:String;
+    private saldo:number;
+    private numeroConta:String;
 
     constructor(numeroConta:string){
         this.numeroConta = numeroConta;

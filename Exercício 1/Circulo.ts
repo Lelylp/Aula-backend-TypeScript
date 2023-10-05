@@ -1,5 +1,5 @@
 export class Circulo{
-    raio:number;
+    private raio:number;
 
     constructor(raio:number){
         this.raio = raio;
